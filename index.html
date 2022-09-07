@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+     <!-- font awesome -->
+     <script src="https://kit.fontawesome.com/50871ed7a3.js" crossorigin="anonymous"></script>
+
+     <!-- my css file -->
+    <link rel="stylesheet" href="/musicplayerProject/style.css" type="text/css">
+    <title>Music Project</title>
+</head>
+<body>
+    <nav class="nav-box">
+
+
+     <div class="left-nav">
+        <img src="/musicplayerProject/images/music-4.jpg" alt="icon">
+        <p><span id="nav-span-text1">Rups</span></br><span id="nav-span-text2">Studio</span></p>
+        <p id="nav-p-text">Favourites</p>
+     </div>
+
+
+
+     <div class="right-nav">
+
+      <form action="" class="nav-form">
+        <button type="submit" class="nav-form-items nav-btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <input type="text" placeholder="Search" class="nav-form-items" style="width: 250px;" >
+        <button type="submit" class="nav-form-items nav-btn"  >
+            <i class="fa-solid fa-microphone"></i>
+        </button>
+      </form>
+        
+        <i class="fa-solid fa-bell  bell-icon-nav"></i>
+        <img src="/musicplayerProject/images/WhatsApp Image 2022-08-22 at 3.25.06 AM.jpeg" alt="profile-img"  id="nav-prof-img">
+    </div>
+
+    </nav>
+
+
+
+    <div class="container">
+        
+
+        
+        <div class="row left-box-img">
+
+            <!-- Left Col -->
+            <div class="col-8  left-outer-most-col">
+
+                <!-- slider  -->
+
+                <div class="row img-div">
+
+                   <div class="col-3 col-img-1">
+                  <img src="/musicplayerProject/images/Arijit.jpg" alt="singer photo">
+                    </div>
+                   <div class="col-3 col-img-2 ">
+                  <img src="/musicplayerProject/images/kk.webp" alt="singer photo">
+                   </div>
+                   <div class="col-3 col-img-3">
+                  <img src="/musicplayerProject/images/rahman.jpg" alt="singer photo">
+                   </div>
+                </div>
+
+                <!-- latest release heading -->
+
+                <div class="row row-latest-rls" style="margin-top: 60px; color:white;">
+                  <div class="col-12">
+                    <h3>Latest Release</h3>
+                  </div>
+                </div>
+
+                <!-- latest release boxes -->
+
+                <div class="row row-latest-boxes">
+                    <div class="col-6 col-for-img-row" >
+                        <div class="row row-latest-b1">
+                            <div class="col-4">
+                               <img src="/musicplayerProject/images/song-1.jpg" alt="">
+                            </div>
+                            <div class="col-5">
+                                <h4>Love song</h4>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-2 dot-box">
+                                <a href="#">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                   
+                                </a>
+                                <p>4:44</p>
+
+                            </div>
+                        </div>
+                        <div class="row row-latest-b2">
+                            <div class="col-4">
+                                <img src="/musicplayerProject/images/song-2.png" alt="">
+                            </div>
+                            <div class="col-5">
+                                <h4>Love song</h4>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-2 dot-box">
+                                <a href="#">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                   
+                                </a>
+                                <p>4:44</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-for-img-row">
+                        <div class="row row-latest-b3">
+                            <div class="col-4">
+                                <img src="/musicplayerProject/images/song-3.jpg" alt="">
+                            </div>
+                            <div class="col-5">
+                                <h4>Love song</h4>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-2 dot-box">
+                                <a href="#">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </a>
+                                <p>4:44</p>
+
+                            </div>
+                        </div>
+                        <div class="row row-latest-b4">
+                            <div class="col-4">
+                                <img src="/musicplayerProject/images/song-4.jpg" alt="">
+                            </div>
+                            <div class="col-5">
+                                <h4>Love song</h4>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-2 dot-box">
+                                <a href="#">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </a>
+                                <p>4:44</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Popular Artist -->
+
+                  <div class="row row-latest-rls" style="margin-top: 60px; color:white;">
+                    <div class="col-12">
+                      <h3>Popular Artist</h3>
+                    </div>
+                  </div>
+
+
+                <!-- popular artist boxes -->
+
+                 <div class="row row-popular-box">
+
+                    <div class="col-2 artist-img-col">
+                        <img src="/musicplayerProject/images/Arijit.jpg" alt="" >
+                        <h5>Arijit Singh </h5>
+                    </div>
+                    <div class="col-2 artist-img-col">
+                        <img src="/musicplayerProject/images/Shreya.jpg" alt="" >
+                        <h5>Shreya Ghoshal </h5>
+                    </div>
+                    <div class="col-2 artist-img-col">
+                        <img src="/musicplayerProject/images/rahman.jpg" alt="" >
+                        <h5>A.R. Rahman</h5>
+                    </div>
+                    <div class="col-2 artist-img-col">
+                        <img src="/musicplayerProject/images/Atif.jpg" alt="" >
+                        <h5>Atif Aslam</h5>
+                    </div>
+                    <div class="col-2 artist-img-col">
+                        <img src="/musicplayerProject/images/diljit.jpg" alt="" >
+                        <h5>Diljit Dosanjh</h5>
+                    </div>
+                    <div class="col-2 artist-img-col">
+                        <img src="/musicplayerProject/images/kk.webp" alt="" >
+                        <h5>KK </h5>
+                    </div>
+
+                 </div>
+
+
+
+
+                 <!-- Stations Div -->
+
+                 <div class="row station-box" >
+                    <div class="col-3 left-station-col">
+                        <img src="/musicplayerProject/images/radioStation.jpg" alt="radio-img">
+                    </div>
+                    <div class="col-9 right-station-col">
+                        <div class="row row-right-sation">
+                            <div class="col-2 station-img-col-love">
+                                <p>Love</p>
+                            </div>
+                            <div class="col-2 station-img-col-retro">
+                                <p>Retro</p>
+                            </div>
+                            <div class="col-2 station-img-col-Chill">
+                                <p>Chill</p>
+                            </div>
+                            <div class="col-2 station-img-col-Workout">
+                                <p>Workout</p>
+                            </div>
+                            <div class="col-2 station-img-col-Rock">
+                                <p>Rock</p>
+                            </div>
+                            <div class="col-2 station-img-col-pop">
+                                <p>pop</p>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+
+                 <!-- Party electronics div -->
+
+                 <div class="row row-party">
+                     <div class="col-4 col-party col-party-1">
+                        <img src="/musicplayerProject/images/party-img.jpg" alt="" id="party-img-1">
+                        <p>Party</p>
+                    </div>
+                     <div class="col-4 col-party">
+                        <img src="/musicplayerProject/images/electronic-img.jpg" alt="">
+                       <p>Electronic</p>
+                    </div>
+                     <div class="col-4 col-party">
+                        <img src="/musicplayerProject/images/trip-img.jpg" alt="">
+                       <p>Road Trip</p>
+                    </div>
+                 </div>
+
+                <!-- Latest English -->
+                 
+                <div class="row row-latest-rls" style="margin-top: 60px; color:white;">
+                    <div class="col-12">
+                      <h3>Latest English</h3>
+                    </div>
+                  </div>
+
+                  <!-- latest English boxes -->
+
+                  <div class="row row-english-box">
+
+                    <div class="col-2 english-img-col">
+                        <img src="/musicplayerProject/images/E2.jfif" alt="" >
+                        <h5>Arijit Singh </h5>
+                        <p>Aug 31, 2022</p>
+                    </div>
+                    <div class="col-2 english-img-col">
+                        <img src="/musicplayerProject/images/E1.png" alt="" >
+                        <h5>Shreya Ghoshal </h5>
+                        <p>Aug 31, 2022</p>
+                    </div>
+                    <div class="col-2 english-img-col">
+                        <img src="/musicplayerProject/images/E3.jfif" alt="" >
+                        <h5>A.R. Rahman</h5>
+                        <p>Aug 31, 2022</p>
+                    </div>
+                    <div class="col-2 english-img-col">
+                        <img src="/musicplayerProject/images/E5.jfif" alt="" >
+                        <h5>Atif Aslam</h5>
+                        <p>Aug 31, 2022</p>
+                    </div>
+                    <div class="col-2 english-img-col">
+                        <img src="/musicplayerProject/images/E6.jfif" alt="" >
+                        <h5>Diljit Dosanjh</h5>
+                        <p>Aug 31, 2022</p>
+                    </div>
+                    <div class="col-2 english-img-col">
+                        <img src="/musicplayerProject/images/music-3.jpg" alt="" >
+                        <h5>KK </h5>
+                        <p>Aug 31, 2022</p>
+                    </div>
+
+                 </div>
+
+
+
+
+                 <!-- Latest hindi -->
+
+                 <div class="row row-latest-rls" style="margin-top: 60px; color:white;">
+                    <div class="col-12">
+                      <h3>Latest Hindi</h3>
+                    </div>
+                  </div> 
+
+
+
+                <!-- Latest hindi boxes -->
+                
+                <div class="row row-english-box">
+
+                    <div class="col-2 english-img-col">
+                        <img src="/musicplayerProject/images/H1.jfif" alt="" >
+                        <h5>Arijit Singh </h5>
+                        <p>Aug 31, 2022</p>
+                    </div>
+                    <div class="col-2 english-img-col">
+                        <img src="/musicplayerProject/images/H2.jfif" alt="" >
+                        <h5>Shreya Ghoshal </h5>
+                        <p>Aug 31, 2022</p>
+                    </div>
+                    <div class="col-2 english-img-col">
+                        <img src="/musicplayerProject/images/H3.jfif" alt="" >
+                        <h5>A.R. Rahman</h5>
+                        <p>Aug 31, 2022</p>
+                    </div>
+                    <div class="col-2 english-img-col">
+                        <img src="/musicplayerProject/images/H5.jfif" alt="" >
+                        <h5>Atif Aslam</h5>
+                        <p>Aug 31, 2022</p>
+                    </div>
+                    <div class="col-2 english-img-col">
+                        <img src="/musicplayerProject/images/loveBG.jpeg" alt="" >
+                        <h5>Diljit Dosanjh</h5>
+                        <p>Aug 31, 2022</p>
+                    </div>
+                    <div class="col-2 english-img-col">
+                        <img src="/musicplayerProject/images/H6.jfif" alt="" >
+                        <h5>KK </h5>
+                        <p>Aug 31, 2022</p>
+                    </div>
+
+                 </div>
+                
+                <!-- left col end -->
+
+            </div>
+
+            <!-- Right col -->
+
+            <div class="col-4  right-outer-most-col">
+                <!-- row top -->
+                <div class="row row-queue">
+                    <div class="col-5 col-outside-h3">
+                        <h3>Queue</h3>
+                    </div>
+                    <div class="col-7 col-outside-dropdown">
+                        <div class="dropdown dropdown-queue">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              Queue
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                    </div>
+                </div>
+
+                <!-- row down -->
+
+                <div class="row row-down">
+                    <div class="col-12 col-down">
+                        <!-- first row -->
+                        <div class="row row-for-song">
+                            <div class="col-1 col-for-p">
+                                <p>01</p>
+                            </div>
+                            <div class="col-2 col-for-img">
+                                <img src="/musicplayerProject/images/music-3.jpg" alt="">
+                            </div>
+                            <div class="col-5 col-h5-p">
+                                <h5>Love Song<h5>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-3 col-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="row row-for-song">
+                            <div class="col-1 col-for-p">
+                                <p>01</p>
+                            </div>
+                            <div class="col-2 col-for-img">
+                                <img src="/musicplayerProject/images/music-3.jpg" alt="">
+                            </div>
+                            <div class="col-5 col-h5-p">
+                                <h5>Love Song<h5>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-3 col-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="row row-for-song">
+                            <div class="col-1 col-for-p">
+                                <p>01</p>
+                            </div>
+                            <div class="col-2 col-for-img">
+                                <img src="/musicplayerProject/images/music-1.jpg" alt="">
+                            </div>
+                            <div class="col-5 col-h5-p">
+                                <h5>Love Song<h5>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-3 col-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+
+                        
+                        <div class="row row-for-song">
+                            <div class="col-1 col-for-p">
+                                <p>01</p>
+                            </div>
+                            <div class="col-2 col-for-img">
+                                <img src="/musicplayerProject/images/E5.jfif" alt="">
+                            </div>
+                            <div class="col-5 col-h5-p">
+                                <h5>Love Song<h5>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-3 col-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+
+
+                        <div class="row row-for-song">
+                            <div class="col-1 col-for-p">
+                                <p>01</p>
+                            </div>
+                            <div class="col-2 col-for-img">
+                                <img src="/musicplayerProject/images/E2.jfif" alt="">
+                            </div>
+                            <div class="col-5 col-h5-p">
+                                <h5>Love Song<h5>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-3 col-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+
+                        <div class="row row-for-song">
+                            <div class="col-1 col-for-p">
+                                <p>01</p>
+                            </div>
+                            <div class="col-2 col-for-img">
+                                <img src="/musicplayerProject/images/H3.jfif" alt="">
+                            </div>
+                            <div class="col-5 col-h5-p">
+                                <h5>Love Song<h5>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-3 col-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+
+
+                        <div class="row row-for-song">
+                            <div class="col-1 col-for-p">
+                                <p>01</p>
+                            </div>
+                            <div class="col-2 col-for-img">
+                                <img src="/musicplayerProject/images/song-2.png" alt="">
+                            </div>
+                            <div class="col-5 col-h5-p">
+                                <h5>Love Song<h5>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-3 col-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+
+
+                        <div class="row row-for-song">
+                            <div class="col-1 col-for-p">
+                                <p>01</p>
+                            </div>
+                            <div class="col-2 col-for-img">
+                                <img src="/musicplayerProject/images/song-3.jpg" alt="">
+                            </div>
+                            <div class="col-5 col-h5-p">
+                                <h5>Love Song<h5>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-3 col-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="row row-for-song">
+                            <div class="col-1 col-for-p">
+                                <p>01</p>
+                            </div>
+                            <div class="col-2 col-for-img">
+                                <img src="/musicplayerProject/images/music-3.jpg" alt="">
+                            </div>
+                            <div class="col-5 col-h5-p">
+                                <h5>Love Song<h5>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-3 col-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+
+                        <div class="row row-for-song">
+                            <div class="col-1 col-for-p">
+                                <p>01</p>
+                            </div>
+                            <div class="col-2 col-for-img">
+                                <img src="/musicplayerProject/images/H2.jfif" alt="" >
+                            </div>
+                            <div class="col-5 col-h5-p">
+                                <h5>Love Song<h5>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-3 col-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="row row-for-song">
+                            <div class="col-1 col-for-p">
+                                <p>01</p>
+                            </div>
+                            <div class="col-2 col-for-img">
+                                <img src="/musicplayerProject/images/music-3.jpg" alt="">
+                            </div>
+                            <div class="col-5 col-h5-p">
+                                <h5>Love Song<h5>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-3 col-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+
+                        <div class="row row-for-song">
+                            <div class="col-1 col-for-p">
+                                <p>01</p>
+                            </div>
+                            <div class="col-2 col-for-img">
+                                <img src="/musicplayerProject/images/H1.jfif" alt="" >
+                            </div>
+                            <div class="col-5 col-h5-p">
+                                <h5>Love Song<h5>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-3 col-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+
+
+                        <div class="row row-for-song">
+                            <div class="col-1 col-for-p">
+                                <p>01</p>
+                            </div>
+                            <div class="col-2 col-for-img">
+                                <img src="/musicplayerProject/images/music-3.jpg" alt="">
+                            </div>
+                            <div class="col-5 col-h5-p">
+                                <h5>Love Song<h5>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-3 col-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+                        <div class="row row-for-song">
+                            <div class="col-1 col-for-p">
+                                <p>01</p>
+                            </div>
+                            <div class="col-2 col-for-img">
+                                <img src="/musicplayerProject/images/music-3.jpg" alt="">
+                            </div>
+                            <div class="col-5 col-h5-p">
+                                <h5>Love Song<h5>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-3 col-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="row row-for-song">
+                            <div class="col-1 col-for-p">
+                                <p>01</p>
+                            </div>
+                            <div class="col-2 col-for-img">
+                                <img src="/musicplayerProject/images/H1.jfif" alt="" >
+                            </div>
+                            <div class="col-5 col-h5-p">
+                                <h5>Love Song<h5>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-3 col-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+
+                        <div class="row row-for-song">
+                            <div class="col-1 col-for-p">
+                                <p>01</p>
+                            </div>
+                            <div class="col-2 col-for-img">
+                                <img src="/musicplayerProject/images/H2.jfif" alt="" >
+                            </div>
+                            <div class="col-5 col-h5-p">
+                                <h5>Love Song<h5>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-3 col-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="row row-for-song">
+                            <div class="col-1 col-for-p">
+                                <p>01</p>
+                            </div>
+                            <div class="col-2 col-for-img">
+                                <img src="/musicplayerProject/images/music-3.jpg" alt="">
+                            </div>
+                            <div class="col-5 col-h5-p">
+                                <h5>Love Song<h5>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-3 col-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="row row-for-song">
+                            <div class="col-1 col-for-p">
+                                <p>01</p>
+                            </div>
+                            <div class="col-2 col-for-img">
+                                <img src="/musicplayerProject/images/H1.jfif" alt="" >
+                            </div>
+                            <div class="col-5 col-h5-p">
+                                <h5>Love Song<h5>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-3 col-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+
+
+                        <div class="row row-for-song">
+                            <div class="col-1 col-for-p">
+                                <p>01</p>
+                            </div>
+                            <div class="col-2 col-for-img">
+                                <img src="/musicplayerProject/images/H2.jfif" alt="" >
+                            </div>
+                            <div class="col-5 col-h5-p">
+                                <h5>Love Song<h5>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-3 col-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="row row-for-song">
+                            <div class="col-1 col-for-p">
+                                <p>01</p>
+                            </div>
+                            <div class="col-2 col-for-img">
+                                <img src="/musicplayerProject/images/H5.jfif" alt="">
+                            </div>
+                            <div class="col-5 col-h5-p">
+                                <h5>Love Song<h5>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-3 col-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+
+
+                        <div class="row row-for-song">
+                            <div class="col-1 col-for-p">
+                                <p>01</p>
+                            </div>
+                            <div class="col-2 col-for-img">
+                                <img src="/musicplayerProject/images/H1.jfif" alt="" >
+                            </div>
+                            <div class="col-5 col-h5-p">
+                                <h5>Love Song<h5>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-3 col-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+
+
+                        <div class="row row-for-song">
+                            <div class="col-1 col-for-p">
+                                <p>01</p>
+                            </div>
+                            <div class="col-2 col-for-img">
+                                <img src="/musicplayerProject/images/H2.jfif" alt="" >
+                            </div>
+                            <div class="col-5 col-h5-p">
+                                <h5>Love Song<h5>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-3 col-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+
+                        
+
+                        <div class="row row-for-song">
+                            <div class="col-1 col-for-p">
+                                <p>01</p>
+                            </div>
+                            <div class="col-2 col-for-img">
+                                <img src="/musicplayerProject/images/H5.jfif" alt="">
+                            </div>
+                            <div class="col-5 col-h5-p">
+                                <h5>Love Song<h5>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-3 col-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+
+
+                        <div class="row row-for-song">
+                            <div class="col-1 col-for-p">
+                                <p>01</p>
+                            </div>
+                            <div class="col-2 col-for-img">
+                                <img src="/musicplayerProject/images/H1.jfif" alt="" >
+                            </div>
+                            <div class="col-5 col-h5-p">
+                                <h5>Love Song<h5>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-3 col-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+
+
+                        <div class="row row-for-song">
+                            <div class="col-1 col-for-p">
+                                <p>01</p>
+                            </div>
+                            <div class="col-2 col-for-img">
+                                <img src="/musicplayerProject/images/H2.jfif" alt="" >
+                            </div>
+                            <div class="col-5 col-h5-p">
+                                <h5>Love Song<h5>
+                                <p>talor swift</p>
+                            </div>
+                            <div class="col-3 col-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                        <!-- col ends here -->
+
+                    </div>
+
+                </div>
+
+
+            </div>
+         
+
+
+         
+        </div>
+        
+
+
+        
+    </div>
+
+
+    <div class="row row-footer">
+         <div class="col-2">
+            <div class="row row-for-song">
+               
+                <div class="col-3 col-for-img">
+                    <img src="/musicplayerProject/images/music-3.jpg" alt="">
+                </div>
+                <div class="col-4 col-h5-p  footer-col-h5-p">
+                    <h5>Love Song<h5>
+                    <p>talor swift</p>
+                </div>
+                <div class="col-1 col-icon">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="col-1 col-icon">
+                    <i class="fa-sharp fa-solid fa-ban"></i>
+                </div>
+
+            </div>
+         </div>
+         <div class="col-5 progress-bar-wala-col">
+            <div class="row footer-col2-row-top">
+                <div class="col-2"><i class="fa-solid fa-shuffle"></i></div>
+                <div class="col-2"><i class="fa-solid fa-backward-step"></i></div>
+                <div class="col-2"><i class="fa-regular fa-circle-pause" style="font-size: 30px;"></i></div>
+                <div class="col-2"><i class="fa-solid fa-forward-step"></i></div>
+                <div class="col-2"><i class="fa-solid fa-repeat"></i></div>
+            </div>
+            <div class="row footer-col2-row-down">
+                <div class="col-1">
+                    <p>1:39</p>
+                </div>
+                <div class="col-10">
+                    <div class="progress  progress-bar-song">
+                        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span class="dot-for-progress-bar"><i class="fa-solid fa-circle"></i></span>
+                    
+                </div>
+                <div class="col-1">
+                    <p>4:44</p>
+                </div>
+            </div>
+
+         </div>
+
+
+         <div class="col-2  last-part-footer">
+            
+                 <div class="row row-last-part-footer">
+                     <div class="col-1">
+                        <i class="fa-sharp fa-solid fa-volume-high"></i>
+                     </div>
+             
+                     <div class="col-5">
+                        <div class="progress  progress-bar-song">
+                           <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                           <span class="dot-bar-last-part"><i class="fa-solid fa-circle"></i></span>
+                     </div>
+                     <div class="col-2">
+                         <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                     </div>
+                </div>
+
+         </div>
+    </div>
+
+    <!-- bootstrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
